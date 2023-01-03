@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modal 3</title>
+    <link rel="stylesheet" type="text/css" href="./about.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main class="page-content">
+      <button onclick="toggleModal()" type="button">You cannot understand a city without using CEO transport service</button>
+    </main>
+    <div class="background" onclick="toggleModal()"></div>
+    <div class="modal">
+      <div class="modal-content">
+        <h2 style="text-align:center;">CEO Car Rentals</h2>
+        <p>
+          Redefining Mobility for Billions
+
+CEO is India’s largest mobility platform and one of the world’s largest ride-hailing companies, serving 250+ cities across India, Australia, New Zealand, and the UK. 
+CEO's core mobility offering in India is supplemented by its electric-vehicle arm, CEO Electric; India’s largest fleet management business,that aims
+ to enable millions of livelihood opportunities for India's youth. With its acquisition of Ridlr, India’s leading public transportation app and investment in Vogo, a dockless scooter sharing solution, CEO is looking to build mobility for the next billion Indians. 
+CEO was founded in Dec 2010 by Jenish adn Bala Athithya with a mission to build mobility for a billion people
+        </p>
+      </div>
+    </div>
+    <script>
+      const toggleModal = () => document.body.classList.toggle("open");
+    </script>
+  </body>
+</html>

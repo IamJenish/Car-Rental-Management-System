@@ -1,0 +1,13 @@
+.fonts{
+    font-family:Calibiri;
+    text-align: center;
+    padding:25px;
+    font-size: 45px;
+}
+.img-style{
+    width:600px;
+    height:350px;
+}
+.bg-img{
+    background-color:black;
+}
